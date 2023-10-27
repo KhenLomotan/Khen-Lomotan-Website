@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>KL Gym Website</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: linear-gradient(90deg, rgb(129, 75, 97), #f90, #ff0, #0f0, rgb(61, 61, 177), #80f, #f0f);
+            background-size: 400% 400%;
+            animation: rainbow 2s linear infinite;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        @keyframes rainbow {
+            0% {
+                background-position: 0% 50%;
+            }
+            100% {
+                background-position: 100% 50%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="gym.png" alt="KL Gym Logo">
+    </div>
+
+    <div class="center-text">
+        <h1 style="color: grey;">PROGRAM</h1>
+    </div>
+
+    <h4>
+        <center><h2>Workouts</h2></center>
+        <ul>
+            <li>
+                <center>
+                    <b>
+                        <i><a href="https://www.youtube.com/watch?v=Z59vr4av-hM"><button>CHEST WORKOUTS</button></a></i>
+                    </b>
+                </center>
+            </li>
+
+            <li>
+                <center>
+                    <b>
+                        <i><a href="https://www.youtube.com/watch?v=BY6DDan3tw4"><button>BACK WORKOUTS</button></a></i>
+                    </b>
+                </center>
+            </li>
+
+            <li>
+                <center>
+                    <b><i><a href="https://www.youtube.com/watch?v=ss7WW_H8sR8"><button>SHOULDER WORKOUTS</button></a></i></b>
+                </center>
+            </li>
+
+            <li>
+                <center>
+                    <b> <i><a href="https://www.youtube.com/watch?v=Re_3NU0XQP4"><button>TRICEP WORKOUTS</button></a></i></b>
+                </center>
+            </li>
+
+            <li>
+                <center>
+                    <b> <i><a href="https://www.youtube.com/watch?v=gozU3CUIizs"><button>BICEP WORKOUTS</button></a></i></b>
+                </center>
+            </li>
+
+            <li>
+                <center>
+                    <b><i><a href="https://www.youtube.com/watch?v=K8FTick7PKM"><button>LEG WORKOUTS</button></a></i></b>
+                </center>
+            </li>
+        </ul>
+    </h4>
+
+    <h4>Visit us on our facebook link below to communicate with your First Trainer.</h4>
+
+    <div class="centered-button-container">
+        <a href="index.html"><button class="big-button">Home Page</button></a>
+        <br>
+        <a href="Page2.html"><button class="big-button">Contact Information</button></a>
+    </div>
+
+    <a href="https://www.facebook.com/khen.lomotan?mibextid=ZbWKwL">Visit us on Facebook</a>
+    
+</body>
+</html>
